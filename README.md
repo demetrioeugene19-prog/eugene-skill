@@ -35,10 +35,17 @@ works at layer 3. EUGENE helps you give it the right task, so the repetitive wor
 Open Terminal (Mac) or PowerShell (Windows) and run:
 
 ```
-npx skills add OWNER/eugene-skill
+npx skills add demetrioeugene19-prog/eugene-skill
 ```
 
 Choose **eugene** and **Claude Code** when it asks.
+
+Or simply paste this into the Claude chat in VS Code:
+
+```
+Please install the EUGENE skill by running: npx skills add demetrioeugene19-prog/eugene-skill
+Choose the "eugene" skill for Claude Code, then tell me in simple words how to test it with /eugene.
+```
 
 **Option 2: copy the folder**
 
